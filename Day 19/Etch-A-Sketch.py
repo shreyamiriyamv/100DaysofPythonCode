@@ -26,10 +26,10 @@ def clear():
 
 screen = t.Screen()
 screen.listen()
-screen.onkey(move_forwards, "w")
-screen.onkey(move_backwards, "s")
-screen.onkey(turn_left, "a")
-screen.onkey(turn_right, "d")
+screen.onkey(move_forwards, "Up")
+screen.onkey(move_backwards, "Down")
+screen.onkey(turn_left, "Left")
+screen.onkey(turn_right, "Right")
 screen.onkey(clear, "c")
 
 screen.exitonclick()
